@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dessert Boutique Menu</title>
+  <link rel="stylesheet" href="menu.css">
+  <header class="header">
+    <div class="logo-section">
+      
+        <div class="logo">Dessert Boutique</div>
+        <div class="slogan">Where Flavor Meets Fashion</div>
+      </div>
+    </div>
+    <nav class="nav">
+  <a href="index.html" class="active">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="contact.html">Contact</a>
+</nav>
+</header>
+</head>
+
+<body>
+
+<section class="menu-section">
+  <h2 class="section-title">Our Signature Collection</h2>
+  <p class="section-subtitle">Handcrafted luxury desserts that redefine indulgence</p>
+
+  <div class="menu-grid">
+
+    <!-- 1 — Tiramisu -->
+    <div class="menu-card" id="card1">
+      <img src="https://www.fooddolls.com/wp-content/uploads/2023/05/Tiramisu16697-2-1024x1536.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Classic Tiramisu</h3>
+        <p class="menu-card-price">$18</p>
+      </div>
+    </div>
+
+    <!-- 2 — Lemon Meringue Tart -->
+    <div class="menu-card" id="card2">
+      <img src="https://www.cookingclue.com/wp-content/uploads/2022/11/lemon-meringue-pie-768x1094.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Lemon Meringue Tart</h3>
+        <p class="menu-card-price">$14</p>
+      </div>
+    </div>
+
+    <!-- 3 — Macarons -->
+    <div class="menu-card" id="card3">
+      <img src="https://images.ohcanvas.com/ohcanvas_com/2021/12/27180424/gift-for-siser-in-law-38-min.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">French Macarons Box</h3>
+        <p class="menu-card-price">$22</p>
+      </div>
+    </div>
+
+    <!-- 4 — Chocolate Mousse Cake -->
+    <div class="menu-card" id="card4">
+      <img src="https://th.bing.com/th/id/OIP.j1VyqbGY5BiObHQXihkhxQAAAA?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Chocolate Mousse Cake</h3>
+        <p class="menu-card-price">$20</p>
+      </div>
+    </div>
+
+    <!-- 5 — Passion Fruit Entremet -->
+    <div class="menu-card" id="card5">
+      <img src="https://imgcdn.floweraura.com/summertime-mango-cake-9815350ca-D_0.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Passion Fruit Entremet</h3>
+        <p class="menu-card-price">$24</p>
+      </div>
+    </div>
+
+    <!-- 6 — Red Velvet Cake -->
+    <div class="menu-card" id="card6">
+      <img src="https://tastychomp.com/wp-content/uploads/2024/11/Red-Velvet-Cake-Recipe36.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Red Velvet Layer Cake</h3>
+        <p class="menu-card-price">$19</p>
+      </div>
+    </div>
+
+    <!-- 7 — Gold Mirror Glaze Cake -->
+    <div class="menu-card" id="card7">
+      <img src="https://i.pinimg.com/736x/21/e2/99/21e29941314ea0cb38d93562c359274a.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Gold Mirror Glaze Cake</h3>
+        <p class="menu-card-price">$35</p>
+      </div>
+    </div>
+
+    <!-- 8 — Chocolate Opera Cake -->
+    <div class="menu-card" id="card8">
+      <img src="https://cdn.sprinklebakes.com/media/2021/01/Opera2BCake.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Chocolate Opera Cake</h3>
+        <p class="menu-card-price">$28</p>
+      </div>
+    </div>
+
+    <!-- 9 — Raspberry Entremet -->
+    <div class="menu-card" id="card9">
+      <img src="https://www.patisseriemakesperfect.co.uk/wp-content/uploads/2015/01/chocolatframboise11text-848x597.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Raspberry Entremet</h3>
+        <p class="menu-card-price">$32</p>
+      </div>
+    </div>
+
+    <!-- 10 — Pistachio Praline Cake -->
+    <div class="menu-card" id="card10">
+      <img src="https://thefarmmillbakery.co.za/wp-content/uploads/2022/12/pistachio-praline.jpg">
+      <div class="menu-card-body">
+        <h3 class="menu-card-title">Pistachio Praline Cake</h3>
+        <p class="menu-card-price">$30</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- MODALS -->
+
+<!-- 1 — Tiramisu -->
+<div class="modal" id="modal1">
+  <div class="modal-content">
+    <button class="modal-close" id="close1">×</button>
+    <img class="modal-image" src="https://www.fooddolls.com/wp-content/uploads/2023/05/Tiramisu16697-2-1024x1536.jpg" alt="Classic Tiramisu">
+    <h2>Classic Tiramisu</h2>
+    <p class="modal-description">Authentic Italian Tiramisu featuring ladyfingers soaked in espresso & layered with mascarpone.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Authentic Italian recipe</li>
+        <li>Espresso-soaked ladyfingers</li>
+        <li>Rich mascarpone cream</li>
+        <li>Premium cocoa dusting</li>
+        <li>Serves 8–10 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$18</div>
+    <button class="order-btn" onclick="orderNow('Classic Tiramisu', 18)">Order Now</button>
+  </div>
+</div>
+
+<!-- 2 — Lemon Meringue Tart -->
+<div class="modal" id="modal2">
+  <div class="modal-content">
+    <button class="modal-close" id="close2">×</button>
+    <img class="modal-image" src="https://www.cookingclue.com/wp-content/uploads/2022/11/lemon-meringue-pie-768x1094.jpg" alt="Lemon Meringue Tart">
+    <h2>Lemon Meringue Tart</h2>
+    <p class="modal-description">Crisp pastry filled with lemon curd & topped with toasted meringue.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Buttery shortcrust pastry</li>
+        <li>Fresh lemon curd</li>
+        <li>Italian meringue topping</li>
+        <li>Perfectly torched finish</li>
+        <li>Serves 8–10 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$14</div>
+    <button class="order-btn" onclick="orderNow('Lemon Meringue Tart', 14)">Order Now</button>
+  </div>
+</div>
+
+<!-- 3 — Macarons -->
+<div class="modal" id="modal3">
+  <div class="modal-content">
+    <button class="modal-close" id="close3">×</button>
+    <img class="modal-image" src="https://images.ohcanvas.com/ohcanvas_com/2021/12/27180424/gift-for-siser-in-law-38-min.jpg" alt="French Macarons Box">
+    <h2>French Macarons Box</h2>
+    <p class="modal-description">A colorful assortment of delicate French macarons in assorted flavors.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Authentic French recipe</li>
+        <li>Crisp shell, soft center</li>
+        <li>Multiple flavors included</li>
+        <li>Perfect gift box</li>
+        <li>Serves 6–8 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$22</div>
+    <button class="order-btn" onclick="orderNow('French Macarons Box', 22)">Order Now</button>
+  </div>
+</div>
+
+<!-- 4 — Chocolate Mousse Cake -->
+<div class="modal" id="modal4">
+  <div class="modal-content">
+    <button class="modal-close" id="close4">×</button>
+    <img class="modal-image" src="https://th.bing.com/th/id/OIP.j1VyqbGY5BiObHQXihkhxQAAAA?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm" alt="Chocolate Mousse Cake">
+    <h2>Chocolate Mousse Cake</h2>
+    <p class="modal-description">Light and airy chocolate mousse layered over rich chocolate sponge.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Decadent chocolate mousse</li>
+        <li>Soft chocolate sponge</li>
+        <li>Elegant presentation</li>
+        <li>Perfect for celebrations</li>
+        <li>Serves 6–8 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$20</div>
+    <button class="order-btn" onclick="orderNow('Chocolate Mousse Cake', 20)">Order Now</button>
+  </div>
+</div>
+
+<!-- 5 — Passion Fruit Entremet -->
+<div class="modal" id="modal5">
+  <div class="modal-content">
+    <button class="modal-close" id="close5">×</button>
+    <img class="modal-image" src="https://imgcdn.floweraura.com/summertime-mango-cake-9815350ca-D_0.jpg" alt="Passion Fruit Entremet">
+    <h2>Passion Fruit Entremet</h2>
+    <p class="modal-description">Exotic passion fruit mousse layered with sponge and passion fruit jelly.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Exotic fruit flavors</li>
+        <li>Light and airy texture</li>
+        <li>Elegant layered presentation</li>
+        <li>Perfect for summer events</li>
+        <li>Serves 6–8 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$24</div>
+   <button class="order-btn" onclick="orderNow('Passion Fruit Entremet', 24)">Order Now</button>
+  </div>
+</div>
+
+<!-- 6 — Red Velvet Cake -->
+<div class="modal" id="modal6">
+  <div class="modal-content">
+    <button class="modal-close" id="close6">×</button>
+    <img class="modal-image" src="https://tastychomp.com/wp-content/uploads/2024/11/Red-Velvet-Cake-Recipe36.jpg" alt="Red Velvet Layer Cake">
+    <h2>Red Velvet Layer Cake</h2>
+    <p class="modal-description">Classic red velvet with cream cheese frosting and moist layers.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Moist red velvet sponge</li>
+        <li>Cream cheese frosting</li>
+        <li>Rich flavor</li>
+        <li>Elegant celebration cake</li>
+        <li>Serves 8–10 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$19</div>
+    <button class="order-btn" onclick="orderNow('Red Velvet Cake', 19)">Order Now</button>
+  </div>
+</div>
+
+<!-- 7 — Gold Mirror Glaze Cake -->
+<div class="modal" id="modal7">
+  <div class="modal-content">
+    <button class="modal-close" id="close7">×</button>
+    <img class="modal-image" src="https://i.pinimg.com/736x/21/e2/99/21e29941314ea0cb38d93562c359274a.jpg" alt="Gold Mirror Glaze Cake">
+    <h2>Gold Mirror Glaze Cake</h2>
+    <p class="modal-description">A stunning gold-glazed cake with silky mousse layers for a luxurious experience.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>It can be customized</li>
+        <li>Edible gold mirror glaze</li>
+        <li>Rich mousse layers</li>
+        <li>Perfect for celebrations</li>
+        <li>Serves 6–8 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$35</div>
+    <button class="order-btn" onclick="orderNow('Gold Mirror Glaze Cake', 35)">Order Now</button>
+  </div>
+</div>
+
+<!-- 8 — Chocolate Opera Cake -->
+<div class="modal" id="modal8">
+  <div class="modal-content">
+    <button class="modal-close" id="close8">×</button>
+    <img class="modal-image" src="https://cdn.sprinklebakes.com/media/2021/01/Opera2BCake.jpg" alt="Chocolate Opera Cake">
+    <h2>Chocolate Opera Cake</h2>
+    <p class="modal-description">A French classic with layers of almond sponge soaked in coffee syrup and chocolate ganache.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Almond sponge soaked in coffee syrup</li>
+        <li>Chocolate ganache and buttercream</li>
+        <li>Elegant presentation</li>
+        <li>Rich flavor profile</li>
+        <li>Serves 6–8 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$28</div>
+    <button class="order-btn" onclick="orderNow('Chocolate Opera Cake', 28)">Order Now</button>
+  </div>
+</div>
+
+<!-- 9 — Raspberry Entremet -->
+<div class="modal" id="modal9">
+  <div class="modal-content">
+    <button class="modal-close" id="close9">×</button>
+    <img class="modal-image" src="https://www.patisseriemakesperfect.co.uk/wp-content/uploads/2015/01/chocolatframboise11text-848x597.jpg" alt="Raspberry Entremet">
+    <h2>Raspberry Entremet</h2>
+    <p class="modal-description">Delicate raspberry mousse with sponge base and shiny glaze for a premium taste.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Raspberry mousse layers</li>
+        <li>Shiny premium glaze</li>
+        <li>Elegant presentation</li>
+        <li>Perfect for gifting</li>
+        <li>Serves 6–8 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$32</div>
+    <button class="order-btn" onclick="orderNow('Raspberry Entremet', 32)">Order Now</button>
+  </div>
+</div>
+
+<!-- 10 — Pistachio Praline Cake -->
+<div class="modal" id="modal10">
+  <div class="modal-content">
+    <button class="modal-close" id="close10">×</button>
+    <img class="modal-image" src="https://thefarmmillbakery.co.za/wp-content/uploads/2022/12/pistachio-praline.jpg" alt="Pistachio Praline Cake">
+    <h2>Pistachio Praline Cake</h2>
+    <p class="modal-description">Layers of pistachio mousse and crunchy praline, perfect for a luxurious dessert experience.</p>
+    <div class="modal-details">
+      <h3>What Makes It Special</h3>
+      <ul id="modalFeatures">
+        <li>Pistachio mousse layers</li>
+        <li>Crunchy praline base</li>
+        <li>Elegant and rich flavor</li>
+        <li>Perfect for celebrations</li>
+        <li>Serves 6–8 people</li>
+      </ul>
+    </div>
+    <div class="modal-price">$30</div>
+    <button class="order-btn" onclick="orderNow('Pistachio Praline Cake', 30)">Order Now</button>
+  </div>
+</div>
+
+<!-- ORDER FORM POPUP -->
+<div class="order-modal" id="orderForm">
+  <div class="order-content">
+    <button class="order-close" id="orderClose">×</button>
+
+    <h2 id="orderItemName"></h2>
+    <p class="order-price">Price: $<span id="orderItemPrice"></span></p>
+
+    <input id="buyerName" type="text" placeholder="Enter your name">
+    <input id="buyerPhone" type="text" placeholder="Enter your phone number">
+    <input id="quantity" type="number" placeholder="Quantity">
+    <input id="custom" type="text" placeholder="Customization (optional)">
+    <input id="buyerLocation" type="text" placeholder="Enter your location">
+
+    <button class="order-confirm-btn" onclick="confirmOrder()">Confirm Order</button>
+  </div>
+</div>
+
+
+<script src="menu.js"></script>
+</body>
+</html>
