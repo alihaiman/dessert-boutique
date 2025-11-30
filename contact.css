@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: rgb(204, 245, 231);
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: rgb(150, 210, 177);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(59, 118, 106);
+    font-size: 32px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(75, 143, 126);
+    margin-bottom: 20px;
+}
+
+.contact.box {
+     width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: rgb( 150, 210, 177);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+p{
+    color:rgb(77, 145, 128) ;
+}
+
