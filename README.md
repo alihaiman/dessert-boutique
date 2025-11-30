@@ -96,7 +96,7 @@ Installation
 
 Download or clone the repository:
 
-git clone https://github.com/yourusername/Dessert-Boutique.git
+https://github.com/alihaiman/dessert-boutique.git
 
 Open the project folder in your preferred code editor.
 
